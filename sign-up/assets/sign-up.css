@@ -66,16 +66,14 @@
     }  
   
   .footer {
-    padding-top: 85px;
-    margin-top: 85px;
     text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0px;
   }
   
   h2 {
       font-size: 20px;
     }
-  
-  #terms {
-    padding: 10px 0px;
-  }
   
