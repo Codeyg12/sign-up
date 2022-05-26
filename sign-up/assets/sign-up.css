@@ -45,7 +45,7 @@
   }
   
   button {
-      color: rgb(250, 250, 250);
+      color: rgb(254, 254, 255);
       width: 25%;
       padding: 5px 0px;
       font-size: 12px;
@@ -62,8 +62,12 @@
   
     a {
       text-decoration: none;
-      color: #fff;
+      color: rgb(255, 255, 255);
     }  
+
+  .term {
+    color: rgb(24, 3, 139);
+    }
 
     a:hover {
       color: black;
@@ -86,3 +90,6 @@
       font-size: 20px;
     }
   
+    ::placeholder {
+      color: rgb(70, 69, 75);
+    }
