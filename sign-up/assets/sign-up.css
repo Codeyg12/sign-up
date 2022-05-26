@@ -45,7 +45,7 @@
   }
   
   button {
-      color: rgb(0, 0, 0);
+      color: rgb(250, 250, 250);
       width: 25%;
       padding: 5px 0px;
       font-size: 12px;
@@ -55,10 +55,19 @@
       outline: solid rgb(3, 3, 3);
       cursor: pointer;
     }
+
+    button:hover {
+      color: black;
+    }
   
     a {
       text-decoration: none;
+      color: #fff;
     }  
+
+    a:hover {
+      color: black;
+    }
   
   hr {
       margin-top: 5px;
